@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 30px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  height: 1600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* font-family: "Young Serif", serif; */
+}
+
+.main {
+  width: 480px;
+  height: 1400px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding-bottom: 70px;
+}
+
+.img-div {
+  /* width: 100%; */
+  margin-bottom: 0;
+}
+
+.omelette-picture {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.recipe-div-p1 {
+  font-size: 29px;
+  font-family: "Young Serif", serif;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.ingredient-div-p1,
+.instruction-div-p1,
+.nutrition-div-p1 {
+  font-family: "Young Serif", serif;
+  color: hsl(14, 45%, 36%);
+}
+
+.preparation-time-div-p1 {
+  font-weight: bold;
+  font-size: 13px;
+  font-family: "Outfit", serif;
+  color: hsl(332, 51%, 32%);
+}
+
+li,
+.nutrition-div-p2,
+.nutrition-table,
+.recipe-div-p2 {
+  font-family: "Outfit", serif;
+  font-size: 12px;
+}
+
+li {
+  margin-left: 8px;
+  line-height: 25px;
+}
+
+ol {
+  margin-left: -30px;
+}
+
+/* .recipe-div {
+  margin-bottom: 12px;
+} */
+
+.preparation-time-div {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 5px;
+  padding-left: 15px;
+  margin-bottom: 0;
+  height: 120px;
+  margin-left: 3px;
+  /* margin-top: -70px; */
+}
+
+.preparation-time-div > li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.ingredient-div > li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+.instruction-div > ol > li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+.preparation-time-span,
+.instruction-span,
+.nutrition-span {
+  font-weight: bold;
+}
+
+.instruction-span {
+  margin-left: ;
+}
+
+.nutrition-span {
+  color: hsl(14, 45%, 36%);
+}
+
+.calories {
+  margin-left: 190px;
+}
+
+.carbs {
+  margin-left: 201px;
+}
+
+.protein {
+  margin-left: 195px;
+}
+
+.fat {
+  margin-left: 215px;
+}
+
+.nutrition-table {
+  padding-left: 20px;
+}
+
+hr {
+  background-color: hsl(30, 27%, 91%);
+  border: none;
+  height: 1px;
+}
+
+.li-p {
+  margin-left: 15px;
+}
